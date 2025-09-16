@@ -6,9 +6,9 @@ import oracledb
 # Conexión a Oracle
 # =============================
 conn = oracledb.connect(
-    user="usuario",
-    password="clave",
-    dsn="localhost:1521/XEPDB1"  # Cambiar según tu instancia
+    user="system",
+    password="Tapiero123",
+    dsn="localhost:1521/orcl"  # Cambiar según tu instancia
 )
 cursor = conn.cursor()
 
