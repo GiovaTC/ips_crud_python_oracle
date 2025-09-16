@@ -12,6 +12,8 @@
 
 <img width="2552" height="1078" alt="image" src="https://github.com/user-attachments/assets/416d1408-66eb-4506-ad9b-97411846727a" />
 
+<img width="1274" height="1079" alt="image" src="https://github.com/user-attachments/assets/a65748f1-3c76-4e43-9c6f-42f5b2d9c4f8" />
+
 Este proyecto implementa un **CRUD (Crear, Leer, Actualizar, Eliminar)** en **Python** conectado a una base de datos **Oracle**, utilizando la librería oficial [`oracledb`](https://python-oracledb.readthedocs.io/).
 La entidad gestionada será **PACIENTES** de una **IPS (Institución Prestadora de Salud)**.
 
