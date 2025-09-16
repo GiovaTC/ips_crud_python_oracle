@@ -44,3 +44,11 @@ def actualizar_paciente(id_paciente, nombre=None, edad=None, genero=None, telefo
         print("⚠️ No se proporcionaron campos para actualizar .")
         return
     
+    sql += ", ".join(campos) + "WHERE ID = :id"
+    valores.append(id_paciente)
+    cursor.execute(sql, valores)
+    conn.commit()
+    print("✅ Paciente actualizado correctamente .")
+
+
+    
