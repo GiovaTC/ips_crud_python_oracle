@@ -1,6 +1,8 @@
 # ips_crud_python_oracle
 # 🏥 CRUD en Python con Oracle (IPS - Pacientes)
 
+<img width="2552" height="1079" alt="image" src="https://github.com/user-attachments/assets/42428113-bb9c-454f-8483-638aca476e7d" />
+
 <img width="2558" height="1079" alt="image" src="https://github.com/user-attachments/assets/0d571769-8e61-414a-88ff-058b41a68b6c" />
 
 <img width="2559" height="1041" alt="image" src="https://github.com/user-attachments/assets/4ffdeb4d-92e8-427c-b756-cab08e29c4d9" />
