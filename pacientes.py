@@ -19,6 +19,13 @@ def crear_paciente(nombre, edad, genero, telefono, direccion):
     conn.commit()
     print("✅ Paciente creado correctamente .")
 
+def leer_pacientes():
+    sql = "SELECT ID, NOMBRE, EDAD, GENERO, TELEFONO, DIRECCION, FECHA_REGISTRO FROM PACIENTES"
+    cursor.execute(sql)
+    pacientes = cursor.fetchall()
+    for p in pacientes:
+        print(p)
+
 def actualizar_paciente(id_paciente, nombre=None, edad=None, genero=None, telefono=None, direccion=None):
     sql=" UPDATE PACIENTES SET "
     campos=[]
@@ -49,6 +56,40 @@ def actualizar_paciente(id_paciente, nombre=None, edad=None, genero=None, telefo
     cursor.execute(sql, valores)
     conn.commit()
     print("✅ Paciente actualizado correctamente .")
+
+def eliminar_paciente(id_paciente):
+    sql = "DELETE FROM PACIENTES WHERE ID = :id"
+    cursor.execute(sql, {"id": id_paciente})
+    conn.commit()
+    print("✅ Paciente eliminado correctamente .")
+
+# =============================
+# EJEMPLOS DE USO
+# =============================
+
+if __name__ == "__name__":
+    #crear pacientes
+    crear_paciente("juan perez", 40, "masculino", "3001234567", "Calle 10 #20-30")
+    crear_paciente("ana gomez", 45, "femenino", "3109876543", "Carrera 15 #45-50")
+
+    #leer pacientes
+    print("\n📋 Lista de pacientes: ")
+    leer_pacientes()
+
+    #actualizar paciente
+    actualizar_paciente(1, telefono="3201112233", direccion="Nueva dirección 123")
+
+    #leer pacientes despues de actualizar
+    print("\n📋 Lista de pacientes actualizada: ")
+    leer_pacientes()    
+
+    #eliminar paciente     
+    eliminar_paciente(2)
+
+    #leer pacientes despues de eliminar
+    print("\n📋 Lista final de pacientes :")
+    leer_pacientes()    
+    
 
 
     
