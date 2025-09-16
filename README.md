@@ -130,12 +130,3 @@ Ejecuta el script en tu consola:
 bash
 python pacientes.py
 Verás la secuencia de operaciones CRUD funcionando sobre la tabla PACIENTES en Oracle .
-
-
-
-
-
-
-Preguntar a ChatGPT
-Explora más posibilidades con Plus
-ChatGPT Plus te ofrece límites más altos, modelos más inteligente
