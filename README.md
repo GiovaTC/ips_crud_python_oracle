@@ -1,6 +1,10 @@
 # ips_crud_python_oracle
 # 🏥 CRUD en Python con Oracle (IPS - Pacientes)
 
+<img width="2558" height="1079" alt="image" src="https://github.com/user-attachments/assets/0d571769-8e61-414a-88ff-058b41a68b6c" />
+
+<img width="2559" height="1041" alt="image" src="https://github.com/user-attachments/assets/4ffdeb4d-92e8-427c-b756-cab08e29c4d9" />
+
 <img width="2552" height="1078" alt="image" src="https://github.com/user-attachments/assets/416d1408-66eb-4506-ad9b-97411846727a" />
 
 Este proyecto implementa un **CRUD (Crear, Leer, Actualizar, Eliminar)** en **Python** conectado a una base de datos **Oracle**, utilizando la librería oficial [`oracledb`](https://python-oracledb.readthedocs.io/).
